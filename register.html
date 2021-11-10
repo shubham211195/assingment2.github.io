@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registraion</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form>
+            <h1>Registration</h1>
+        <input type="text" class="inp" placeholder="First name"  pattern="[A-Za-z]{1,15}" title="should be letters and limit upto 15 digits">
+        <input type="text" class="inp" placeholder="Surname"  pattern="[A-Za-z]{1,15}" title="it should be letters and limit upto 15 digits">
+        <input type="password" class="inp" placeholder="password" pattern=".{10,}" title="10 or more than 10 digits  ">
+        <input type="password" class="inp" placeholder="Confirm password" pattern=".{10,}" title="10 or more than 10 digits ">
+        <input type="text" class="inp" placeholder="Enter email" pattern="[a-zA-Z0-9\.]+[@][a-z][.\]{2,3}" title="use of @ and.com or .in is required">
+        <label class="inp" for="date"><h4>Date of birth</h4></label>
+        <input type="date" name="date" class="inp">
+        <input class="inp" type="text" placeholder="Enter your age" pattern="[0-9]{1,}" title="Should be in numbers" >
+        <input class="inp" type="text" placeholder="Mobile no" pattern="[0-9][.\]{10}" title="Should be in numbers" >
+
+        <button type="submit">submit</button>
+    </form>
+    </body>
+</html>
