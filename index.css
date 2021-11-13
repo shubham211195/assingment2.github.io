@@ -9,15 +9,20 @@
     font-size: 22px;
 }
 body{
-    background-color: rgb(95, 177, 204);
+    background-color:#B983FF;
+}
+h2{
+    color: #99FEFF;
 }
 h1{
     background-color: rgb(168, 23, 235);
     font-size: 70px;
     margin: 0px 1px;
-    color:rgb(46, 245, 7);
+    color:#FFAB4C;
 }
 button{
+    border: 5px solid green;
+    border-radius: 20px;
     font-size: 18px;
     margin: 45px 10px;
     padding: 8px 17px;
