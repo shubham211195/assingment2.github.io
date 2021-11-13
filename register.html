@@ -6,17 +6,19 @@
     </head>
     <body>
         <form>
+             <div class="centre">
             <h1>Registration</h1>
-         <input type="text" class="inp" placeholder="First name"  pattern="[A-Za-z]{1,15}" title="should be letters and limit upto 15 digits" required>
+        <input type="text" class="inp" placeholder="First name"  pattern="[A-Za-z]{1,15}" title="should be letters and limit upto 15 digits" required>
         <input type="text" class="inp" placeholder="Surname"  pattern="[A-Za-z]{1,15}" title="it should be letters and limit upto 15 digits">
-        <input type="password" class="inp" placeholder="password" pattern=".{10,}" title="10 or more than 10 digits  "required>
+        <input type="password" class="inp" placeholder="password" pattern=".{10,}"  max="10" title=" less than 10 digits  "required>
         <input type="password" class="inp" placeholder="Confirm password" pattern=".{10,}" title="10 or more than 10 digits "required>
         <input type="text" class="inp" placeholder="Enter email" pattern=".+@.+\..+" title="use of @ and.com or .in is required" required>
-        <label class="inp" for="date"><h4>Date of birth</h4></label>
+        <label id="sm" class="inp" for="date"><h4 >Date of birth</h4></label>
         <input type="date" name="date" class="inp">required >
         <input class="inp" type="text" placeholder="Mobile no" title="Should be in numbers"required maxlength="10">
 
         <button type="submit">submit</button>
+    </div>
     </form>
     </body>
 </html>
